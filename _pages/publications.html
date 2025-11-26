@@ -4,33 +4,21 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<hr>
+<h2>Robust whole slide image analysis for cervical cancer screening using deep learning</h2>
+<h3>Nature Communications, 2021</h3>
+<p>Shenghua Cheng#, Sibo Liu#, Jingya Yu#, Gong Rao, Yuwei Xiao, <strong>Wei Han</strong>, Wenjie Zhu, Xiaohua Lv, Ning Li, Jing Cai, Zehua Wang, Xi Feng, Fei Yang, Xiebo Geng, Jiabo Ma, Xu Li, Ziquan Wei, Xueying Zhang, Tingwei Quan, Shaoqun Zeng, Li Chen, Junbo Hu & Xiuli Liu.</p>
+<p>Personal main contributions:</p>
+<ul>
+  <li>Backend for cervical cell annotation and label management.</li>
+  <li>Use Parallel Computing/TensorRT/C++ and other algorithms to accelerate the processing time of whole slide images(WSIs) and reach about 1.5 minutes per giga-pixel slide.</li>
+</ul>
+<a href="https://www.nature.com/articles/s41467-021-25296-x">Paper</a> | 
+<a href="https://www.nature.com/articles/s41467-021-25296-x.pdf">Pdf</a> | 
+<a href="https://github.com/ShenghuaCheng/Aided-Diagnosis-System-for-Cervical-Cancer-Screening">Code</a> | 
+<a href="https://github.com/hanxiaowein1/rnnPredict">Deploy Code</a>
+<hr>
+<h2>An Unsupervised Style Normalization Method for Cytopathology Images</h2>
+<h3>Computational and Structural Biotechnology Journal, 2021</h3>
+<p>Xihao Chen Jingya Yu, Shenghua Cheng, Xiebo Geng, Sibo Liu, <strong>Wei Han</strong>, Junbo Liu, Li Chen, Xiuli Liu, Shaoqun Zeng</p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S2001037021002634">Paper</a></p>

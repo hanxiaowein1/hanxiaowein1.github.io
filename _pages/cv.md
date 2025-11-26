@@ -6,8 +6,32 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+You can download a full cv [here](/files/wei_han.pdf).
+<hr>
+Experience
+======
 
-{% include base_path %}
+**2022-2024**&nbsp;&nbsp;&nbsp;Deveops/Embeded software Engineer, Shenzhen Da-Jiang Innovations Sciences and Technologies Ltd, Shenzhen, China
+
+**2021-2022**&nbsp;&nbsp;&nbsp;Deveops/Backend software Engineer, Tencent Technology Shenzhen Co Ltd, Shenzhen, China
+<hr>
+Education
+======
+**2018-2021**&nbsp;&nbsp;&nbsp;Msc in Computer Science,&nbsp;&nbsp;&nbsp;Huazhong University of Science and Technology, China
+
+**2013-2017**&nbsp;&nbsp;&nbsp;BSc in Information Security, Northeastern University, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;China
+<hr>
+Additional Information
+======
+**Language**
+- English: &nbsp;TOEFL iBT 106
+- Chinese: Native
+
+**Programming**
+- C/C++, Python, Go
+- PyBind11, OpenGL
+
+<!-- {% include base_path %}
 
 Education
 ======
@@ -61,4 +85,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
