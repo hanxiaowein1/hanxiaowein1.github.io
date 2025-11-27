@@ -4,6 +4,20 @@ title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
 ---
+<style>
+.image-container {
+  display: inline-block; /* or block depending on your layout */
+  text-align: center;
+}
+
+.image-caption {
+  margin-top: 8px;
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
+</style>
+
 You can download an integrated visualization tool that includes several of the following components:<br>
 <a href="https://github.com/hanxiaowein1/charles_mesh/releases/tag/v0.2">Compiled toolkit</a>
 
@@ -11,16 +25,36 @@ You can download an integrated visualization tool that includes several of the f
 
 <h2>Marching Cubes 33</h2>
 <a href="https://github.com/hanxiaowein1/hello_cg">Repository</a>
+<br>
+<figure class="image-container">
+  <img src="/images/mc33_20x20x20.png" style="width: 50%; height: auto;"/>
+  <figcaption class="image-caption">Generated with 20*20*20 signed distance</figcaption>
+</figure>
 <hr>
 
 <h2>Half-edge Based Mesh Library</h2>
 <a href="https://github.com/hanxiaowein1/charles_mesh">Repository</a>
 <br>
 <b>features:</b> edge flip/collapse, bvh, mesh simplification by QEM, ...
+<figure class="image-container">
+  <div>
+    <img src="/images/origin_bunny.png" style="width: 50%; height: auto;"/>
+    <img src="/images/origin_bunny_info.png" style="width: 30%; height: auto;"/>
+  </div>
+
+  <br>
+  <img src="/images/simplified_bunny.png" style="width: 50%; height: auto;"/>
+  <img src="/images/simplified_bunny_info.png" style="width: 30%; height: auto;"/>
+  <figcaption class="image-caption">original bunny <b>VS</b> simplified bunny(10 edges are simplified)</figcaption>
+</figure>
 
 <hr>
 <h2>Triangle Mesh Viewer</h2>
 <a href="https://github.com/hanxiaowein1/hello_opengl">Repository</a>
+<figure class="image-container">
+  <img src="/images/mesh_viewer.gif" style="width: 50%; height: auto;"/>
+  <figcaption class="image-caption">Mesh Viewer</figcaption>
+</figure>
 <!-- {% include base_path %}
 
 
