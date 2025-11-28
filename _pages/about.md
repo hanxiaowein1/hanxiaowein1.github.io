@@ -19,3 +19,8 @@ Recently, I have been focusing on **geometry processing**, implementing projects
 while studying Justin Solomon's [*Shape Analysis*](https://www.youtube.com/playlist?list=PLQ3UicqQtfNtUcdTMLgKSTTOiEsCw2VBW) and mathematical foundations for geometric algorithms.
 
 I’m currently looking for opportunities to contribute to research in geometry processing and related areas.
+
+## Quick Links
+- [Publications](/publications)
+- [Projects](/portfolio)
+- [Short CV](/cv) \| [Full CV(pdf)](/files/weihan_cv.pdf)
