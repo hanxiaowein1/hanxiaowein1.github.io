@@ -6,14 +6,14 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-You can download a full cv [here](/files/wei_han.pdf).
+You can download a full cv [here](/files/weihan_cv.pdf).
 <hr>
 Experience
 ======
 
-**2022-2024**&nbsp;&nbsp;&nbsp;Deveops/Embeded software Engineer, Shenzhen Da-Jiang Innovations Sciences and Technologies Ltd, Shenzhen, China
+**2022-2024**&nbsp;&nbsp;&nbsp;Devops/Embeded software Engineer, Shenzhen Da-Jiang Innovations Sciences and Technologies Ltd, China
 
-**2021-2022**&nbsp;&nbsp;&nbsp;Deveops/Backend software Engineer, Tencent Technology Shenzhen Co Ltd, Shenzhen, China
+**2021-2022**&nbsp;&nbsp;&nbsp;Devops/Backend software Engineer, Tencent Technology Shenzhen Co Ltd, China
 <hr>
 Education
 ======
